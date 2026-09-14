@@ -9,7 +9,7 @@ import {
 // Default Base URL for API
 // - With real device via USB & ADB reverse (`adb reverse tcp:3000 tcp:3000`), http://localhost:3000/api works directly!
 // - If using Android Emulator without adb reverse, default fallback is http://10.0.2.2:3000/api
-export const DEFAULT_BASE_URL = 'http://localhost:3000/api';
+export const DEFAULT_BASE_URL = 'https://api.wallpaperappbymichaeldung.stream';
 
 let customBaseUrl: string | null = null;
 
